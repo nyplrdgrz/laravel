@@ -14,4 +14,5 @@ use App\Http\Middleware\LogAcessoMiddleware;
 */
 
 Route::get('/', [App\Http\Controllers\Principal::class, 'principal']);
+Route::get('/teste', [App\Http\Controllers\Principal::class, 'teste']);
 
